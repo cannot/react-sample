@@ -2,7 +2,7 @@ import React from 'react'
 
 const Viewlist = () => (
   <div>
-    <h1>This is Viewlist</h1>
+    <h1>Welcome to the Viewlist!</h1>
   </div>
 )
 

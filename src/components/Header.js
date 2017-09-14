@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 // The Header creates links that can be used to navigate
@@ -7,9 +7,9 @@ const Header = () => (
   <header>
     <nav>
       <ul>
-        <li><Link to='/xx'>Home</Link></li>
-        <li><Link to='/roster'>Roster</Link></li>
-        <li><Link to='/schedule'>Schedule</Link></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/viewlist'>Viewlist</Link></li>
+        <li><Link to='/viewlist_replica'>Viewlist-replica</Link></li>
       </ul>
     </nav>
   </header>
